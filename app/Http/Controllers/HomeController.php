@@ -23,6 +23,10 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+    public function login()
+    {
+        return view('Admin.login');
+    }
     public function index()
     {
         return view('dashboard');
